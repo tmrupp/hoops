@@ -17,6 +17,5 @@ public class MovementController : MonoBehaviour
         var x = Input.GetAxis("Horizontal");
         var y = Input.GetAxis("Vertical");
         rigidbody.AddForce(new Vector2(x, y));
-        
     }
 }
