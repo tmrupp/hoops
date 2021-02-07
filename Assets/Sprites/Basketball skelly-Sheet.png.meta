@@ -1,7 +1,94 @@
 fileFormatVersion: 2
 guid: d90c23217b63ef04c9c46e66c5121401
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2544195926723241710
+    second: Basketball skelly-Sheet_0
+  - first:
+      213: -3365554388815951121
+    second: Basketball skelly-Sheet_1
+  - first:
+      213: -2092478732183541040
+    second: Basketball skelly-Sheet_2
+  - first:
+      213: -7439643151703417206
+    second: Basketball skelly-Sheet_3
+  - first:
+      213: -249221089871420783
+    second: Basketball skelly-Sheet_4
+  - first:
+      213: 1708949249586403818
+    second: Basketball skelly-Sheet_5
+  - first:
+      213: 7618468378026919116
+    second: Basketball skelly-Sheet_6
+  - first:
+      213: 609128900795689970
+    second: Basketball skelly-Sheet_7
+  - first:
+      213: 8516427679381734151
+    second: Basketball skelly-Sheet_8
+  - first:
+      213: -245160306497622593
+    second: Basketball skelly-Sheet_9
+  - first:
+      213: 4101770508504707933
+    second: Basketball skelly-Sheet_10
+  - first:
+      213: 7049632788473433009
+    second: Basketball skelly-Sheet_11
+  - first:
+      213: 3573090616053567877
+    second: Basketball skelly-Sheet_12
+  - first:
+      213: 4501775218303075673
+    second: Basketball skelly-Sheet_13
+  - first:
+      213: -7704329222980563468
+    second: Basketball skelly-Sheet_14
+  - first:
+      213: 2015851607127711589
+    second: Basketball skelly-Sheet_15
+  - first:
+      213: 3648999907538732938
+    second: Basketball skelly-Sheet_16
+  - first:
+      213: -3745410828189622844
+    second: Basketball skelly-Sheet_17
+  - first:
+      213: 7136477874762579434
+    second: Basketball skelly-Sheet_18
+  - first:
+      213: -6074726383610132566
+    second: Basketball skelly-Sheet_19
+  - first:
+      213: -691718968905178211
+    second: Basketball skelly-Sheet_20
+  - first:
+      213: -6051424175761455518
+    second: Basketball skelly-Sheet_21
+  - first:
+      213: -4893519377362950623
+    second: Basketball skelly-Sheet_22
+  - first:
+      213: -4104795103690037223
+    second: Basketball skelly-Sheet_23
+  - first:
+      213: -4262662648308977413
+    second: Basketball skelly-Sheet_24
+  - first:
+      213: -6627543028726202205
+    second: Basketball skelly-Sheet_25
+  - first:
+      213: -9067399715659712569
+    second: Basketball skelly-Sheet_26
+  - first:
+      213: -4795649293446641543
+    second: Basketball skelly-Sheet_27
+  - first:
+      213: -3589513964553681741
+    second: Basketball skelly-Sheet_28
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +119,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +128,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +160,642 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2195aacc84331bcd0800000000000000
+      internalID: -2544195926723241710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 30
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea4e566d162b41d0800000000000000
+      internalID: -3365554388815951121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 30
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae324fda506f2e0800000000000000
+      internalID: -2092478732183541040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 30
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8edc0f68f311c890800000000000000
+      internalID: -7439643151703417206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 30
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192adab3db69a8cf0800000000000000
+      internalID: -249221089871420783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 30
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae994c0c94867b710800000000000000
+      internalID: 1708949249586403818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 30
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc447dc10ac3ab960800000000000000
+      internalID: 7618468378026919116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 30
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbe95a028f047800800000000000000
+      internalID: 609128900795689970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 30
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7034ad83add603670800000000000000
+      internalID: 8516427679381734151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 30
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdee2a0004099cf0800000000000000
+      internalID: -245160306497622593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 30
+        width: 54
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53b89d9b8a6ce830800000000000000
+      internalID: 4101770508504707933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 30
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbc7e9aba355d160800000000000000
+      internalID: 7049632788473433009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 30
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5819728fbfa269130800000000000000
+      internalID: 3573090616053567877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 30
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9558c99a5b4897e30800000000000000
+      internalID: 4501775218303075673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 35
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd05971469b41590800000000000000
+      internalID: -7704329222980563468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 33
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f5fb23b5eb9fb10800000000000000
+      internalID: 2015851607127711589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 42
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87874a251ad3a230800000000000000
+      internalID: 3648999907538732938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 30
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd1bdf12b0a50cc0800000000000000
+      internalID: -3745410828189622844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 33
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed78a001dcd90360800000000000000
+      internalID: 7136477874762579434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 45
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa789351a8c32bba0800000000000000
+      internalID: -6074726383610132566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 36
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93e10e33458666f0800000000000000
+      internalID: -691718968905178211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 35
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266078226c5050ca0800000000000000
+      internalID: -6051424175761455518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 46
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1266ac2ad0ab61cb0800000000000000
+      internalID: -4893519377362950623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 30
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918eac0f996d807c0800000000000000
+      internalID: -4104795103690037223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 27
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0b73ae7eaf7d4c0800000000000000
+      internalID: -4262662648308977413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 37
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a08827cabc3604a0800000000000000
+      internalID: -6627543028726202205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 30
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7ff9fefff1a2280800000000000000
+      internalID: -9067399715659712569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 30
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97882c4406e627db0800000000000000
+      internalID: -4795649293446641543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball skelly-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 30
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4497a311c7f2ec0800000000000000
+      internalID: -3589513964553681741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
