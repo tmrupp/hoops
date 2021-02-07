@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     Rigidbody2D rigidbody;
-    float speed = 5.0f, jumpSpeed = 5.0f;
+    public float speed = 5.0f, jumpSpeed = 5.0f;
     bool grounded;
     // Start is called before the first frame update
     void Start()
