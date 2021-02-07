@@ -52,7 +52,7 @@ public class MovementController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
                 v.y = v.y + jumpSpeed;
         }
-        
+
         rigidbody.velocity = v;
     }
 }
