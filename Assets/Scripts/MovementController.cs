@@ -7,6 +7,7 @@ public class MovementController : MonoBehaviour
     Rigidbody2D rigidbody;
     public float speed = 5.0f, jumpSpeed = 5.0f;
     bool grounded;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,13 +17,15 @@ public class MovementController : MonoBehaviour
     void OnCollisionEnter2D (Collision2D c) 
     {
         Debug.Log("entered a collider, tag=" + c.gameObject.tag + " go=" + c.gameObject.ToString());
-        grounded = (c.gameObject.tag == "Ground");
+        if (c.gameObject.tag == "Ground")
+            grounded = true;
     }
 
     void OnCollisionExit2D (Collision2D c) 
     {
         Debug.Log("left a collider, tag=" + c.gameObject.tag);
-        grounded = !(c.gameObject.tag == "Ground");
+        if (c.gameObject.tag == "Ground")
+            grounded = false;
     }
 
     // Update is called once per frame
