@@ -9,7 +9,7 @@ public class MovementController : MonoBehaviour
     bool grounded;
     private Transform m_GroundCheck;                    // A position marking where to check if the player is grounded.
     [SerializeField] private LayerMask m_WhatIsGround;  // A mask determining what is ground to the character
-    const float k_GroundedRadius = .01f;                 // Radius of the overlap circle to determine if grounded
+    const float k_GroundedRadius = .1f;                 // Radius of the overlap circle to determine if grounded
 
     // Start is called before the first frame update
     void Start()
@@ -31,9 +31,11 @@ public class MovementController : MonoBehaviour
     }
 
     void FixedUpdate () {
+        grounded = false;
         Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
         for (int i = 0; i < colliders.Length; i++) {
             if (colliders[i].gameObject != gameObject) {
+                Debug.Log("grounded");
                 grounded = true;
             }
         }
@@ -44,10 +46,13 @@ public class MovementController : MonoBehaviour
     {
         // var y = Inpu;
         var v = rigidbody.velocity;
-        v.x = Input.GetAxis("Horizontal") * speed;
-        if (Input.GetKeyDown(KeyCode.Space) && grounded) {
-            v.y = v.y + jumpSpeed;
+        
+        if (grounded) {
+            v.x = Input.GetAxis("Horizontal") * speed;
+            if (Input.GetKeyDown(KeyCode.Space))
+                v.y = v.y + jumpSpeed;
         }
+        
         rigidbody.velocity = v;
     }
 }
