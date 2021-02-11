@@ -35,7 +35,6 @@ public class BallHandler : MonoBehaviour
                     myBall = grabbableBalls[0];
                     grabbableBalls.Remove(myBall);
                     myBall.GetComponent<Rigidbody2D>().isKinematic = true;
-                    
                     myBall.GetComponent<CircleCollider2D>().enabled = false;
                     myBall.transform.SetParent(gameObject.transform.parent);
                 }
