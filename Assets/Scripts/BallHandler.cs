@@ -43,7 +43,7 @@ public class BallHandler : MonoBehaviour
                 ballRB.isKinematic = false;
                 myBall.transform.parent = null;
                 myBall.GetComponent<CircleCollider2D>().enabled = true;
-                ballRB.AddForce(new Vector2(yeetForce, yeetForce));
+                ballRB.AddForce(new Vector2(0, yeetForce));
                 myBall = null;
             }
         }
